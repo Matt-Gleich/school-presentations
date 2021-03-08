@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Website for my school presentations",
   "scripts": {
-    "build": "mdx-deck build mdx-presentations/drug-project.mdx"
+    "dev": "mdx-deck presentations/drug-project.mdx",
+    "build": "mdx-deck build presentations/drug-project.mdx"
   },
-  "repository": "https://github.com/Matt-Gleich/school.presentations.git",
+  "repository": "https://github.com/Matt-Gleich/school-presentations.git",
   "author": "Matthew Gleich <git@mattglei.ch>",
   "license": "MIT",
   "private": true,
