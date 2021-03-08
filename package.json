@@ -1,0 +1,13 @@
+{
+  "name": "school.presentations",
+  "version": "1.0.0",
+  "description": "Website for my school presentations",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "repository": "https://github.com/Matt-Gleich/school.presentations.git",
+  "author": "Matthew Gleich <git@mattglei.ch>",
+  "license": "MIT",
+  "private": true
+}
