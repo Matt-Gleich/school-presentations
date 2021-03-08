@@ -9,5 +9,8 @@
   "repository": "https://github.com/Matt-Gleich/school.presentations.git",
   "author": "Matthew Gleich <git@mattglei.ch>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "mdx-deck": "^4.1.1"
+  }
 }
