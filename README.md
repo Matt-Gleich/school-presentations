@@ -1,2 +1,3 @@
-# school.presentations
-👨‍🏫  Website for my school presentations
+# School Presentations
+
+👨‍🏫 Website for my presentations in school
