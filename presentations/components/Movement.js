@@ -1,5 +1,5 @@
 import React from 'react'
-import toast, { Toaster } from 'react-hot-toast'
+import { toast, Toaster } from 'react-hot-toast'
 import './styles/Movement.css'
 
 let sent = false
