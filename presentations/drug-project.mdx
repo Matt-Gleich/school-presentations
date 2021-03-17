@@ -3,6 +3,7 @@ import Title from './components/Title'
 import Movement from './components/Movement'
 import { Columns, Column } from './components/Columns'
 import './main.css'
+import 'animate.css'
 
 <Head>
   <title>💉 Drug Project</title>
@@ -10,14 +11,20 @@ import './main.css'
 </Head>
 
 <Title>
-  Herion & Fentanyl
+  Heroin & Fentanyl
   <br />
-  💉 Drug Project
+  Drug Project 💉
 </Title>
 
-Health Semester 2
+<div className={'animate__animated animate__rotateInDownLeft'}>
+  Health Semester 2
+</div>
 
-By Matthew Gleich
+<br />
+
+<div className={'animate__animated animate__rotateInDownRight'}>
+  By Matthew Gleich
+</div>
 
 <Movement />
 
@@ -26,7 +33,7 @@ By Matthew Gleich
 <Title>Basics</Title>
 
 <Columns>
-  <Column>
+  <Column animation={'animate__fadeInLeft'}>
     <table>
       <tr>
         <th>Name</th>
@@ -40,14 +47,14 @@ By Matthew Gleich
       </tr>
     </table>
   </Column>
-  <Column>
+  <Column animation={'animate__fadeInRight'}>
     <table>
       <tr>
         <td>
           <b>Name</b> {/* For some reason th doesn't work here */}
         </td>
         <td>→</td>
-        <td>Herion</td>
+        <td>Heroin</td>
       </tr>
       <tr>
         <th>Type</th>
@@ -65,3 +72,5 @@ By Matthew Gleich
 <Title>Sources</Title>
 
 - [CIULLA-BOHLING, R., PhD. Heroin. Salem Press Encyclopedia of Health, [s. l.], 2020.](http://search.ebscohost.com/login.aspx?direct=true&db=ers&AN=93787990&site=eds-live)
+
+<Copyright />
