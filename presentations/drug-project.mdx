@@ -1,6 +1,7 @@
 import Copyright from './components/Copyright'
 import Title from './components/Title'
 import Movement from './components/Movement'
+import { Columns, Column } from './components/Columns'
 import './main.css'
 
 <Head>
@@ -8,7 +9,11 @@ import './main.css'
   <link rel="icon" href="https://mattglei.ch/icons/favicon.ico" />
 </Head>
 
-<Title>💉 Drug Project</Title>
+<Title>
+  Herion & Fentanyl
+  <br />
+  💉 Drug Project
+</Title>
 
 Health Semester 2
 
@@ -18,6 +23,45 @@ By Matthew Gleich
 
 ---
 
-Here is a second page
+<Title>Basics</Title>
+
+<Columns>
+  <Column>
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>→</td>
+        <td>Fentanyl</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>→</td>
+        <td>Opioid</td>
+      </tr>
+    </table>
+  </Column>
+  <Column>
+    <table>
+      <tr>
+        <td>
+          <b>Name</b> {/* For some reason th doesn't work here */}
+        </td>
+        <td>→</td>
+        <td>Herion</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>→</td>
+        <td>Opioid</td>
+      </tr>
+    </table>
+  </Column>
+</Columns>
 
 <Copyright />
+
+---
+
+<Title>Sources</Title>
+
+- [CIULLA-BOHLING, R., PhD. Heroin. Salem Press Encyclopedia of Health, [s. l.], 2020.](http://search.ebscohost.com/login.aspx?direct=true&db=ers&AN=93787990&site=eds-live)
