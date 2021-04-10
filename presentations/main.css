@@ -1,3 +1,11 @@
 a {
   color: #00f396db;
 }
+
+th {
+  text-align: right;
+}
+
+ul {
+  max-width: 1000px;
+}
