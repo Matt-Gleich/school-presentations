@@ -1,14 +1,13 @@
 import Copyright from './components/Copyright'
 import Title from './components/Title'
-import Movement from './components/Movement'
-import { Columns, Column } from './components/Columns'
+import { Row, Column } from './components/Align'
 import './main.css'
 import 'animate.css'
 
 <Notes>
   So my drugs for the drug project are Heroin and Fentanyl. Before I get started
-  this presentation is a website I coded from scratch. If you visit
-  school.mattgleich.com you can follow along on your device.
+  this presentation this is actually a website I coded from scratch. If you
+  visit school.mattgleich.com you can follow along on your computer.
 </Notes>
 
 <Head>
@@ -32,8 +31,6 @@ import 'animate.css'
   By Matthew Gleich
 </div>
 
-<Movement />
-
 <Copyright />
 
 ---
@@ -48,7 +45,7 @@ Fentanyl is a schedule 2 drug which means it has some medical uses but has a hig
 
 <Title>Basics</Title>
 
-<Columns>
+<Row>
   <Column animation={'animate__rotateInUpRight animate__fadeIn'}>
     <table>
       <tbody>
@@ -111,7 +108,7 @@ Fentanyl is a schedule 2 drug which means it has some medical uses but has a hig
       </tbody>
     </table>
   </Column>
-</Columns>
+</Row>
 
 ---
 
@@ -145,12 +142,11 @@ A large amount of usage during the 2010s in northern states such as New Hampshir
 
 <Title>Origin & Timeline</Title>
 
-<Columns>
+<Row>
   <Column animation={'animate__rotateInUpRight animate__fadeIn'}>
     <ul>
       <li>Pain killer for medical reasons.</li>
-      <li>Finding shared on the internet.</li>
-      <li>Horrible production conditions.</li>
+      <li>Findings shared on the internet.</li>
     </ul>
   </Column>
   <Column animation={'animate__rotateInUpLeft animate__fadeIn'}>
@@ -184,18 +180,23 @@ A large amount of usage during the 2010s in northern states such as New Hampshir
       </tbody>
     </table>
   </Column>
-</Columns>
+</Row>
 
 ---
 
 <Notes>
   Lozenge: Something a patient would suck on after getting surgery. Oral Tablet:
   Similar to the lozenge but you swallow it. Oral Spray: Similar to the oral
+  tablet but in a liquid pray form. IV: Slow trip of liquid Fentanyl at a
+  controlled rate. Patch: Arm patch. Spiked blotter paper: Stamp-like pieces of
+  paper traced with Fentanyl. Manufactured tablets: The oral tablet but
+  manufactured illegally by drug dealers (white or blue). Powder: white blocky
+  powder.
 </Notes>
 
 <Title>Appearence</Title>
 
-<Columns>
+<Row>
   <Column animation={'animate__rotateInUpRight animate__fadeIn'}>
     <p>Legal:</p>
     <ul>
@@ -214,22 +215,180 @@ A large amount of usage during the 2010s in northern states such as New Hampshir
       <li>Powder</li>
     </ul>
   </Column>
-</Columns>
+</Row>
 
 ---
 
-<Title>Sources</Title>
+<Title>Delivery</Title>
+
+<Notes>
+  Fentanyl can be delivered to the body in several different ways (READ FROM
+  SLIDE)
+</Notes>
+
+<Row>
+  <Column animation={'animate__rotateInUpRight animate__fadeIn'}>
+    <ol>
+      <li>
+        Oral
+        <ul>
+          <li>Lozenge</li>
+          <li>Tablet</li>
+          <li>Spray</li>
+          <li>Spiked blotter paper</li>
+        </ul>
+      </li>
+      <li>
+        Injection
+        <ul>
+          <li>IV</li>
+        </ul>
+      </li>
+    </ol>
+  </Column>
+  <Column animation={'animate__rotateInUpLeft animate__fadeIn'}>
+    <ol start="3">
+      <li>
+        Nostrils
+        <ul>
+          <li>Powder</li>
+        </ul>
+      </li>
+      <li>
+        Blood Vessels
+        <ul>
+          <li>Patch</li>
+        </ul>
+      </li>
+    </ol>
+  </Column>
+</Row>
+
+---
+
+<Title>Physical Impact</Title>
+
+<Row>
+  <Column animation={'animate__fadeInUp'}>
+    <p>Short-term:</p>
+    <ul>
+      <li>Large pupels</li>
+      <li>Restlessness</li>
+    </ul>
+  </Column>
+  <Column animation={'animate__fadeInUp'}>
+    <p>Long-term:</p>
+    <ul>
+      <li>🧠 Brain</li>
+      <ul>
+        <li>Brain injury</li>
+      </ul>
+      <li>🫀 Heart</li>
+      <ul>
+        <li>Infection of heart lining</li>
+        <li>Infection of heart valves</li>
+      </ul>
+    </ul>
+  </Column>
+  <Column animation={'animate__fadeInUp'}>
+    <p>Long-term (continued):</p>
+    <ul>
+      <li>🫁 Lungs</li>
+      <ul>
+        <li>Pneumonia</li>
+        <li>Nasal passage irritastion</li>
+        <li>Nasal septum perforation</li>
+      </ul>
+      <li>🩸 Circulation</li>
+      <ul>
+        <li>Chronic vascular inflammation</li>
+        <li>Collapsed veins</li>
+      </ul>
+    </ul>
+  </Column>
+</Row>
+
+---
+
+<Notes>
+  Like a lot of other drugs Fentanyl causes to have your body to have harsh
+  withdrawl symptoms. As sometime uses Fentanyl their body gets used to it and
+  starts to need it.
+</Notes>
+
+<Title>Mental Impact</Title>
+
+<Row>
+  <Column animation={'animate__rotateInUpRight animate__fadeIn'}>
+    <p>Short-term:</p>
+    <ul>
+      <li>Extreme Happiness</li>
+      <li>Drowsiness</li>
+      <li>Confusion</li>
+      <li>Num to pain</li>
+      <li>Unconscieousness</li>
+    </ul>
+  </Column>
+  <Column animation={'animate__rotateInUpLeft animate__fadeIn'}>
+    <p>Long-term:</p>
+    <ul>
+      <li>Depression</li>
+      <li>Withdrawl</li>
+    </ul>
+  </Column>
+</Row>
+
+---
+
+<Notes>
+  Like a lot of other drugs Fentanyl addictive nature can cause hell in all
+  parts of your life. You can lose relationships with other people, have poor
+  performance in school/work, and even commit crimes just to get your fix of
+  Fentanyl.
+</Notes>
+
+<Title>Other Impacts</Title>
 
 <ul className={'animate__animated animate__fadeInUp'}>
-  <li>
-    <a
-      href="http://search.ebscohost.com/login.aspx?direct=true&db=ers&AN=93787990&site=eds-live"
-      target="_blank"
-    >
-      CIULLA-BOHLING, R., Ph.D. Heroin. Salem Press Encyclopedia of Health, [s.
-      l.], 2020.
-    </a>
-  </li>
+  <li>Relationships</li>
+  <li>Work/School</li>
+  <li>Illigal Actions</li>
+</ul>
+
+---
+
+<Title>Withdrawl Symptoms</Title>
+
+<ul className={'no-bullets animate__animated animate__fadeInUp'}>
+  <li>🦴 &nbsp;Muscle and bone pain</li>
+  <li>💤 &nbsp;Sleep problems</li>
+  <li>💩 &nbsp;Diarrhea and vomiting</li>
+  <li>🥶 &nbsp;Cold flashes and goose bumps</li>
+  <li>🦵 &nbsp;Uncontrollable leg movements</li>
+  <li>🍕 &nbsp;Severe cravings</li>
+</ul>
+
+---
+
+<Notes>
+  As you have seen so far Fentanyl and drugs in general can have a devasting
+  impact on your life. If you or someone you know uses Fentanyl or any sort of
+  drug you can call the American Addiction Centers or the Granite Recovery
+  Centers. There is even a rehab center in Canterbury New Hampshire.
+</Notes>
+
+<Title>Getting Help</Title>
+
+<ul className={'animate__animated animate__fadeInUp'}>
+  <li>American Addiction Centers (888) 966-8152</li>
+  <li>Visit NFA Behavioral Health</li>
+</ul>
+
+---
+
+<Title>Sources (Fentanyl)</Title>
+
+<ul className={'animate__animated animate__fadeInUp'}>
   <li>
     <a
       href="https://www.drugabuse.gov/publications/drugfacts/fentanyl"
@@ -238,16 +397,6 @@ A large amount of usage during the 2010s in northern states such as New Hampshir
       NIDA. "Fentanyl DrugFacts." National Institute on Drug Abuse, 28 Feb.
       2019, https://www.drugabuse.gov/publications/drugfacts/fentanyl Accessed 9
       Apr. 2021.
-    </a>
-  </li>
-  <li>
-    <a
-      href="https://www.drugabuse.gov/publications/drugfacts/heroin"
-      target="_blank"
-    >
-      NIDA. "Heroin DrugFacts." National Institute on Drug Abuse, 21 Nov. 2019,
-      https://www.drugabuse.gov/publications/drugfacts/heroin Accessed 9 Apr.
-      2021.
     </a>
   </li>
   <li>
@@ -264,6 +413,14 @@ A large amount of usage during the 2010s in northern states such as New Hampshir
       target="_blank"
     >
       Fentanyl: Where did it all go wrong?
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://americanaddictioncenters.org/fentanyl-treatment"
+      target="_blank"
+    >
+      Fentanyl: American Addiction Centers
     </a>
   </li>
 </ul>

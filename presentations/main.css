@@ -9,3 +9,7 @@ th {
 ul {
   max-width: 1000px;
 }
+
+.no-bullets {
+  list-style-type: none;
+}
