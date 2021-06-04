@@ -6,7 +6,7 @@ export default () => (
   <p className="copyright animate__animated animate__slideInUp">
     &copy; Matthew Gleich {new Date().getFullYear()} | See the{' '}
     <a
-      href="https://github.com/Matt-Gleich/school-presentations"
+      href="https://github.com/gleich/school-presentations"
       target="_blank"
       rel="noreferrer"
     >
