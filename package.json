@@ -4,7 +4,7 @@
   "description": "Website for my school presentations",
   "scripts": {
     "dev": "mdx-deck ./presentations/main.mdx",
-    "build": "mdx-deck build presentations/works.mdx",
+    "build": "mdx-deck build presentations/main.mdx",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
