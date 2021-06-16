@@ -21,6 +21,6 @@ div {
   list-style-type: none;
 }
 
-li::marker {
-  color: #e92741;
-}
+/* li::marker { */
+/*   color: #e92741; */
+/* } */
