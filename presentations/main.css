@@ -1,15 +1,26 @@
 a {
-  color: #00f396db;
+  color: #e92741;
 }
 
 th {
   text-align: right;
 }
 
-ul {
-  max-width: 1000px;
+ul,
+p {
+  max-width: 55vw;
+}
+
+h1,
+p,
+div {
+  color: #fdf7cd;
 }
 
 .no-bullets {
   list-style-type: none;
+}
+
+li::marker {
+  color: #e92741;
 }
