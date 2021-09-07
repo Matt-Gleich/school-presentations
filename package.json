@@ -1,5 +1,5 @@
 {
-  "name": "school-presentations",
+  "name": "school",
   "version": "1.0.0",
   "description": "Website for my school presentations",
   "scripts": {
@@ -8,7 +8,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
-  "repository": "https://github.com/gleich/school-presentations.git",
+  "repository": "https://github.com/gleich/school.git",
   "author": "Matthew Gleich <git@mattglei.ch>",
   "license": "MIT",
   "private": true,
