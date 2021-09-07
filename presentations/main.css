@@ -1,5 +1,14 @@
+:root {
+  --red: #e92741;
+}
+
 a {
-  color: #e92741;
+  color: var(--red);
+}
+
+::selection {
+  background-color: var(--red);
+  color: white;
 }
 
 th {
@@ -16,5 +25,5 @@ p {
 }
 
 /* li::marker { */
-/*   color: #e92741; */
+/*   color: var(--red)*/
 /* } */
