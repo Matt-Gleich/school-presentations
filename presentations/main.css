@@ -11,12 +11,6 @@ p {
   max-width: 55vw;
 }
 
-h1,
-p,
-div {
-  color: #fdf7cd;
-}
-
 .no-bullets {
   list-style-type: none;
 }
