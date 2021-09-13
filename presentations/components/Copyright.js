@@ -4,9 +4,9 @@ import 'animate.css'
 
 export default () => (
   <p className="copyright animate__animated animate__slideInUp">
-    &copy; Matt Gleich {new Date().getFullYear()} | See the{' '}
+    &copy; Matt Gleich {new Date().getFullYear()} |{' '}
     <a href="https://github.com/gleich/school" target="_blank" rel="noreferrer">
-      source code
+      gleich/school
     </a>
   </p>
 )

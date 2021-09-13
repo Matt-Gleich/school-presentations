@@ -1,14 +1,10 @@
-:root {
-  --red: #e92741;
-}
-
 a {
-  color: var(--red);
+  color: #418fdd;
 }
 
 ::selection {
-  background-color: var(--red);
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 th {
@@ -23,7 +19,3 @@ p {
 .no-bullets {
   list-style-type: none;
 }
-
-/* li::marker { */
-/*   color: var(--red)*/
-/* } */
